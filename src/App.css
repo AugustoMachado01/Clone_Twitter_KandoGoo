@@ -1,1 +1,19 @@
- 
+@import "tailwindcss";
+
+/* Adicionar no seu arquivo CSS */
+.scale-110 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
